@@ -1,4 +1,4 @@
-/* Card container */
+
 .card {
     /* width: 18rem; */
     border: 1px solid #ccc;
@@ -8,33 +8,31 @@
     /* margin: 10px; */
     display: inline-block;
     background-color: #fff;
-    width: calc(24% - 10px); /* 10px is the total margin for each card */
+    width: calc(24% - 10px);
+    /* 10px is the total margin for each card */
     /* margin: 5px; */
     height: 100%;
-    padding: 7px;
+    padding: 7px  10px 7px 7px;
 }
 
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-/* Card image */
 .card-img-top {
     width: 100%;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
 
-/* Card body */
 .card-body {
     padding: 15px;
 }
 
-/* Card title */
 .card-title {
     font-size: 1.25rem;
     font-weight: bold;
-    
+
 }
 
 
@@ -43,20 +41,19 @@
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
-    -webkit-line-clamp: 2; /* Adjust the number of lines you want to display */
+    -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     font-family: Glory;
-font-size: 20px;
-font-weight: 700;
-line-height: 20px;
-letter-spacing: 0em;
-text-align: left;
-color: #5e5e5e96;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #5e5e5e96;
 
 }
 
 
-/* Primary button */
 .btn-primary {
     background-color: #007bff;
     color: #fff;
@@ -71,7 +68,6 @@ color: #5e5e5e96;
     background-color: #0056b3;
 }
 
-/* My Cart styles */
 .mycart {
     position: relative;
     font-size: 2vw;
@@ -97,7 +93,7 @@ body {
     padding: 0;
     background-color: white;
     font-family: Cairo;
-    
+
 }
 
 .container {
@@ -109,31 +105,29 @@ body {
     box-sizing: border-box;
 }
 
-/* Center the products container */
 #products-container {
     display: flex;
-    /* justify-content: center; */
-    align-items: stretch; /* Ensure all cards have the same height */
     flex-wrap: wrap;
-    /* padding-top: 30px; */
     justify-content: space-between;
     padding-top: 40px;
-    
+
 }
-/* Set a fixed width and height for card images */
+
 .card-img-top {
     width: 100%;
-    height: 200px; /* Adjust the height as needed */
+    height: 200px;
     object-fit: cover;
 }
-.btn-primary{
+
+.btn-primary {
     width: 220px;
     height: 50px;
     top: 940px;
     left: 426px;
     border-radius: 0px, 0px, 0px, 6px;
+    border: none;
 }
-/* Style the button container as a flexbox row */
+
 .button-container {
     display: flex;
     flex-direction: row;
@@ -141,27 +135,30 @@ body {
     align-items: center;
 }
 
-/* Adjust the margin between the button and the heart icon */
 .button-container button {
-    margin-right: 10px; /* Adjust as needed */
-   
+    margin-right: 10px;
+
 
 }
-i{
-    background-color: #007BFF;
+
+i {
+    background-color: #ffffff;
     margin-left: 110%;
     margin-top: -72%;
-    width: 30px;
-   padding: 10px 10px 10px 10px;
-   width: 30px;
-height: 30px;
-/* top: 950px; */
-/* left: 662px; */
-padding: 20px, 1.25px, 3.75px, 1.25px;
+    /* width: 20px; */
+    padding: 10px 11px 10px 11px;
+    width: 10px;
+    height: 10px;
+    /* top: 950px; */
+    /* left: 662px; */
+    /* padding: 3.75px, 1.25px, 3.75px, 1.25px; */
+    border: 1px solid #007bff;
+    color: #007BFF;
 
     /* justify-content: center; */
 
 }
+
 /* .fas{
     display: flex;
    margin-left: 120%;
